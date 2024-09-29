@@ -25,7 +25,7 @@ export default function ButtonApply() {
 
   return (
     <div className="apply-button-container">
-      <button className="apply-button bg-pink-300 border-4 border-black text-black md:px-6 sm:px-2 py-4 flex items-center justify-center ">
+      <button className="apply-button bg-pink-300 border-4 border-black text-black md:px-6 max-sm:p-3 md:py-4 flex items-center justify-center ">
         <span className="font-sans font-bold text-xl ">apply for help</span>
         <span ref={arrowRef} className="ml-2 mt-1">
           <img

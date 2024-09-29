@@ -54,5 +54,8 @@ Aplikasi akan berjalan dalam mode pengembangan. Secara default, Anda bisa mengak
 
 ## Teknologi yang Digunakan
 
-- [Next.js](https://nextjs.org/) (contoh teknologi yang digunakan)
+- [ScrollMagic](https://scrollmagic.io/)
+- [GSAP](https://gsap.com/docs/v3/)
+- [Next.js](https://nextjs.org/) 
+
 
