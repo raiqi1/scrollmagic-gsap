@@ -44,18 +44,15 @@ const Home = () => {
     <div
       ref={sectionRef}
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
       }}
-      className="md:m-20"
+      className=" w-full md:h-[100vh]"
     >
-      <div className="box-lima flex justify-center items-center w-full mt-10 h-full">
+      <div className="box-lima flex justify-center items-center w-full mt-10 md:h-full">
         <iframe
-          className="gambar"
-          width="100%"
-          height="100%"
+          className="gambar md:w-full md:h-full"
           src="https://www.youtube.com/embed/5Wk1rp99B7o"
           title="YouTube video player"
           frameBorder="0"

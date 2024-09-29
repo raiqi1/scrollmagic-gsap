@@ -18,8 +18,8 @@ export default function KomponentLima() {
       // Buat scene untuk setiap elemen
       new ScrollMagic.Scene({
         triggerElement: element, // Menjalankan animasi saat elemen masuk viewport
-        triggerHook: 0.9, // Mulai animasi saat elemen mencapai 80% dari viewport
-        duration: '50%', // Durasi animasi lebih kecil
+        triggerHook: 1, // Mulai animasi saat elemen mencapai 80% dari viewport
+        duration: '100%', // Durasi animasi lebih kecil
         // reverse: false, // Agar animasi berjalan bolak-balik
       })
         .on('enter', () => {
@@ -27,9 +27,8 @@ export default function KomponentLima() {
             opacity: 1,
             y: 0,
             duration: 1,
-            // ease: 'power2.in',
             animation: gsap.timeline().from(element, {
-              opacity: 1,
+              opacity: 0,
               y: 50,
               duration: 1,
             }),
@@ -58,7 +57,7 @@ export default function KomponentLima() {
           desire - to help
         </p>
       </div>
-      <div className="flex flex-wrap gap-8 mb-28">
+      <div className="flex flex-wrap place-content-center md:gap-8 gap-4 mb-28">
         {UserData.map((user, index) => (
           <div className="box-lima" key={index}>
             <BoxLima

@@ -41,7 +41,7 @@ const BoxLima = ({ name, image, position }) => {
         borderRadius: '1px',
         backgroundColor: 'yellow',
       }}
-      className="cursor-pointer max-sm:w-[180px] md:w-[250px] h-full"
+      className="cursor-pointer max-sm:w-[160px] max-[450px]:w-[150px] max-[375px]:w-[140px] md:w-[250px] h-full"
     >
       <div
         ref={contentRef}
@@ -53,7 +53,7 @@ const BoxLima = ({ name, image, position }) => {
           position: 'relative',
           transformOrigin: 'center', // Pastikan transformasi terjadi dari pusat
         }}
-        className=" h-full pb-[40px] pt-[30px]  place-content-cente"
+        className=" h-full md:pb-[40px] pt-[30px]  place-content-cente"
       >
         <div className="text-black h-full font-sans max-sm:p-2 ">
           <div className="place-content-center flex justify-center">

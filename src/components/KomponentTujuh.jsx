@@ -54,7 +54,7 @@ export default function KomponentTujuh() {
   return (
     <div
       ref={sectionRef}
-      className="flex flex-col md:ml-32 max-sm:m-8 gap-5 mt-10 mb-28 "
+      className="flex flex-col place-content-center md:ml-32 max-sm:m-8 gap-5 mt-10 mb-28 "
     >
       <div className="md:mt-16 mb-4">
         <h2 className="font-bold text-5xl font-sans max-md:text-2xl text-black">
@@ -64,7 +64,7 @@ export default function KomponentTujuh() {
           are take care of our fund and help us with many questions
         </p>
       </div>
-      <div className="flex flex-wrap md:gap-11 gap-y-24 max-sm:gap-5">
+      <div className="flex flex-wrap md:gap-11 gap-y-24 max-sm:gap-5 place-content-center">
         {images.map((image, index) => (
           <div className="box-lima flex justify-center " key={index}>
             <div className=" flex flex-col justify-center ">

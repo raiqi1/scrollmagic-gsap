@@ -49,7 +49,7 @@ const Box = ({ name }) => {
         borderRadius: '1px',
         // margin: '0 auto',
       }}
-      className="cursor-pointer md:w-[330px] h-full "
+      className="cursor-pointer h-full "
       onClick={handleClick}
     >
       <div
@@ -63,7 +63,7 @@ const Box = ({ name }) => {
         }}
         className=" h-full p-[18px] place-content-center"
       >
-        <h2 className=" text-center text-black text-xl  sm:p-3">{name}</h2>
+        <h2 className=" text-wrap  text-center text-black text-xl">{name}</h2>
       </div>
     </div>
   )

@@ -32,11 +32,11 @@ export default function ImageSwape() {
   }, [images.length])
   return (
     <div>
-      <div ref={imageRef}>
+      <div ref={imageRef} className=''>
         <img
           src={images[currentImage]}
           alt="Animal Logo"
-          className='md:w-[250px] md:h-[200px] max-sm:w-[100px] max-sm:h-[100px]'
+          className='md:w-[250px] md:h-[200px] max-sm:w-[200px] max-sm:h-[100px]'
         />
       </div>
     </div>

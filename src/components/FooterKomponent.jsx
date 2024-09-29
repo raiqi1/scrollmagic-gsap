@@ -33,12 +33,12 @@ export default function FooterKomponent() {
     // Animasi gambar muncul dari bawah
     const controller = new ScrollMagic.Controller()
 
-    gsap.set(imageRef.current, { opacity: 0, y: 0 }) // Set posisi awal di bawah dan tidak terlihat
+    gsap.set(imageRef.current, { opacity: 0, y: 50 }) // Set posisi awal di bawah dan tidak terlihat
 
     new ScrollMagic.Scene({
       triggerElement: footerRef.current,
       triggerHook: 0.9,
-      duration: '90%',
+      duration: '100%',
     })
       .on('enter', () => {
         gsap.to(imageRef.current, {
@@ -47,8 +47,8 @@ export default function FooterKomponent() {
           duration: 1,
           animation: gsap.timeline().from(imageRef.current, {
             opacity: 0,
-            y: 200,
-            duration: 1,
+            y: 90,
+            duration: 0.5,
           }),
         })
       })
@@ -60,7 +60,7 @@ export default function FooterKomponent() {
   }, [])
 
   return (
-    <div ref={footerRef} className="w-full flex justify-center p-16 h-[100vh]">
+    <div ref={footerRef} className="w-full flex justify-center p-16 h-full">
       <div className="flex flex-wrap md:gap-56">
         <div className="flex flex-col justify-center">
           <h2 className="font-bold text-5xl font-sans max-md:text-2xl text-black">
@@ -83,7 +83,7 @@ export default function FooterKomponent() {
           ref={imageRef}
           src="https://cdn.prod.website-files.com/62640d8cb86529032eccb9d1/62647f9fbe07235ba9b28d67_star-white-with-animals.svg"
           alt=""
-          className="max-sm:w-[180px] md:w-[500px]"
+          className="max-sm:w-[250px] md:w-[500px] max-sm:m-5"
         />
       </div>
     </div>

@@ -5,7 +5,7 @@ import React from 'react'
 const BoxEnam = ({ name, image, position }) => {
   return (
     <div
-      className="cursor-pointer max-sm:w-[180px] md:w-[250px] h-full "
+       className="cursor-pointer max-sm:w-[160px] max-[450px]:w-[150px] max-[375px]:w-[140px] md:w-[250px] h-full"
     >
       <div className="text-black h-full font-sans max-sm:p-2 ">
         <div className="place-content-center flex justify-center">

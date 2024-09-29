@@ -58,7 +58,7 @@ export default function KomponentLima() {
           support us
         </p>
       </div>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap md:gap-8 gap-4 place-content-center">
         {User2.map((user, index) => (
           <div className="box-lima" key={index}>
             <BoxEnam

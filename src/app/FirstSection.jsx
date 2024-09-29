@@ -50,7 +50,7 @@ export default function FirstSection() {
             <div className="image">
               <ImageSwape />
             </div>
-            <h2 className="text-h2 font-sans font-bold md:text-6xl max-sm:text-2xl md:w-[300px]">
+            <h2 className="text-h2 font-sans font-bold md:text-6xl max-sm:text-[20px] leading-tight md:w-[300px]">
               Innovative Solutions for Animals
             </h2>
           </div>
