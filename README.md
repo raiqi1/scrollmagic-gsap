@@ -27,7 +27,7 @@ git clone https://github.com/raiqi1/scrollmagic-gsap.git
 Setelah proses cloning selesai, pindah ke direktori proyek:
 
 ```bash
-cd scrollmagic-gsap
+cd scrollmagic-gsap-responsive
 ```
 
 ### 3. Install Dependencies
