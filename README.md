@@ -27,7 +27,7 @@ git clone https://github.com/raiqi1/scrollmagic-gsap.git
 Setelah proses cloning selesai, pindah ke direktori proyek:
 
 ```bash
-cd scrollmagic-gsap
+cd scrollmagic-gsap-responsive
 ```
 
 ### 3. Install Dependencies
@@ -48,9 +48,6 @@ npm run dev
 
 Aplikasi akan berjalan dalam mode pengembangan. Secara default, Anda bisa mengakses aplikasi di browser melalui [http://localhost:3000](http://localhost:3000).
 
-## Konfigurasi Tambahan
-
-(Tambahkan bagian ini jika ada konfigurasi khusus yang diperlukan seperti variabel lingkungan atau pengaturan lainnya.)
 
 ## Teknologi yang Digunakan
 
