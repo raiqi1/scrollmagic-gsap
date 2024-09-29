@@ -19,7 +19,7 @@ Ikuti langkah-langkah berikut untuk meng-clone repository dan menjalankan proyek
 Clone repository ini menggunakan Git dengan perintah berikut:
 
 ```bash
-git clone https://github.com/raiqi1/scrollmagic-gsap.git
+git clone https://github.com/raiqi1/scrollmagic-gsap-responsive.git
 ```
 
 ### 2. Masuk ke Direktori Proyek
