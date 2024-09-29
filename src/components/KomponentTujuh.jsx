@@ -64,7 +64,7 @@ export default function KomponentTujuh() {
           are take care of our fund and help us with many questions
         </p>
       </div>
-      <div className="flex flex-wrap md:gap-11 gap-y-24 max-sm:gap-5 place-content-center">
+      <div className="flex flex-wrap md:gap-11 gap-y-24 max-sm:gap-5 max-sm:place-content-center">
         {images.map((image, index) => (
           <div className="box-lima flex justify-center " key={index}>
             <div className=" flex flex-col justify-center ">

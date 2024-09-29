@@ -46,7 +46,7 @@ export default function KomponentLima() {
   return (
     <div
       ref={sectionRef}
-      className="flex flex-col md:ml-32 max-sm:m-8 gap-5 mt-10  mb2"
+      className="flex flex-col md:ml-32 md:mr-20 max-sm:m-8 gap-5 mt-10  mb2"
     >
       <div className="md:mt-16 mb-4">
         <h2 className="font-bold text-5xl font-sans max-md:text-2xl text-black">
@@ -57,7 +57,7 @@ export default function KomponentLima() {
           desire - to help
         </p>
       </div>
-      <div className="flex flex-wrap place-content-center md:gap-8 gap-4 mb-28">
+      <div className="flex flex-wrap max-sm:place-content-center md:gap-8 gap-4 mb-28">
         {UserData.map((user, index) => (
           <div className="box-lima" key={index}>
             <BoxLima
