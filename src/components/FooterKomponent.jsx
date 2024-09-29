@@ -33,12 +33,12 @@ export default function FooterKomponent() {
     // Animasi gambar muncul dari bawah
     const controller = new ScrollMagic.Controller()
 
-    gsap.set(imageRef.current, { opacity: 0, y: 50 }) // Set posisi awal di bawah dan tidak terlihat
+    gsap.set(imageRef.current, { opacity: 0, y: 0 }) // Set posisi awal di bawah dan tidak terlihat
 
     new ScrollMagic.Scene({
       triggerElement: footerRef.current,
-      triggerHook: 0.8,
-      duration: '100%',
+      triggerHook: 0.9,
+      duration: '90%',
     })
       .on('enter', () => {
         gsap.to(imageRef.current, {
@@ -46,8 +46,8 @@ export default function FooterKomponent() {
           y: 0,
           duration: 1,
           animation: gsap.timeline().from(imageRef.current, {
-            opacity: 1,
-            y: 90,
+            opacity: 0,
+            y: 200,
             duration: 1,
           }),
         })
